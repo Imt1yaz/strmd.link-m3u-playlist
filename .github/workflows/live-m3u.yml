@@ -16,7 +16,7 @@ jobs:
   run:
     runs-on: ubuntu-22.04
     env:
-      SCRIPT_PATH: streamed_ultra.py   # <-- change if your script is named differently
+      SCRIPT_PATH: streamed_ultra.py  # change if your script has a different name
       PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
@@ -30,12 +30,17 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install Google Chrome
+      - name: Install Google Chrome (v141 to match ChromeDriver)
         uses: browser-actions/setup-chrome@v1
         with:
-          chrome-version: stable
+          chrome-version: "141"
 
-      - name: Install system deps
+      - name: Show Chrome version
+        run: |
+          which google-chrome || true
+          google-chrome --version || true
+
+      - name: Install system deps (Xvfb + required libs)
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends xvfb libgbm1 libgtk-3-0 libnss3 libxss1 libasound2 fonts-liberation xdg-utils libu2f-udev
