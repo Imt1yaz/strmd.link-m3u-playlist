@@ -88,17 +88,6 @@ SESSION_POOL.mount('https://', adapter)
 def setup_enhanced_driver(headless=False):
     #Setup driver with enhanced network capture and asset blocking
     options = uc.ChromeOptions()
-"""
-    # Prefer GitHub Actions Chrome for Testing if provided by setup-chrome => fixes chrome not compatible with driver issue
-    chrome_bin = (
-        os.environ.get("CHROME_PATH")
-        or os.environ.get("GOOGLE_CHROME_BIN")
-        or os.environ.get("GOOGLE_CHROME_SHIM")
-    )
-    if chrome_bin:
-        options.binary_location = chrome_bin
-"""
-
     # Force UC to use Chrome for Testing if provided by setup-chrome
     chrome_bin = (
         os.environ.get("CHROME_PATH")
