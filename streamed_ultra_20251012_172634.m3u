@@ -1,35 +1,54 @@
+#EXTM3U
+#PLAYLIST:Streamed.pk Ultra [Custom Logic] - 2025-10-12 17:26
+#DESCRIPTION:16 streams in 5.3min
 
-# ====== UPDATE 2025-10-12 17:26 UTC (16 streams) ======
+# ====== CRICKET (1) ======
 #EXTINF:-1 tvg-name="[Cricket] India Cricket Women vs Australia Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] India Cricket Women vs Australia Cricket Women [HD] (alpha)
 https://lb10.strmd.top/secure/BAjKjoDNVcOLbLzBMHtNwmThXTEOUAVy/alpha/stream/india-w-vs-australia-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-w-vs-australia-w/1&Origin=https://embedsports.top
+
+# ====== FOOTBALL (15) ======
 #EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)
 https://lb4.strmd.top/secure/tFYcdIOgnqxqXrImkTvHyhfaTFCxjHPK/alpha/stream/malta-vs-bosnia-and-herzegovina/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/malta-vs-bosnia-and-herzegovina/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (echo)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (echo)
 https://lb8.strmd.top/secure/toDJDqfzbSzwWQdTHIveRfEhWXLVryJF/echo/stream/malta-vs-bosnia-herzegovina-football-1351556/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/malta-vs-bosnia-herzegovina-football-1351556/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (admin)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (admin)
 https://gg.poocloud.in/wc_faroe-islands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-faroe-islands-vs-czechia/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (alpha)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (alpha)
 https://lb3.strmd.top/secure/ksHdAmlYqoxbqxeuwJMBcPubqpFSVRtp/alpha/stream/faroe-islands-vs-czechia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/faroe-islands-vs-czechia/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Juventud Las Piedras vs River Plate Montevideo [HD] (alpha)" group-title="Football",[Football] Juventud Las Piedras vs River Plate Montevideo [HD] (alpha)
 https://lb10.strmd.top/secure/IfOtcQKDjdrTJZeYBeWfSIeBsYiUuzgr/alpha/stream/juventud-vs-river-plate/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/juventud-vs-river-plate/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (admin)" group-title="Football",[Football] Netherlands vs Finland [HD] (admin)
 https://gg.poocloud.in/wc_netherlands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-netherlands-vs-finland/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (alpha)" group-title="Football",[Football] Netherlands vs Finland [HD] (alpha)
 https://lb7.strmd.top/secure/ncDNHaSLIPRcvcwhsOOYbzOjKDheNZFI/alpha/stream/netherlands-vs-finland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/netherlands-vs-finland/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Faroe Islands vs Czech Republic [HD] (hotel)" group-title="Football",[Football] Faroe Islands vs Czech Republic [HD] (hotel)
 https://lb7.strmd.top/secure/ncDNHaSLIPRcvcwhsOOYbzOjKDheNZFI/alpha/stream/netherlands-vs-finland/1/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/world-cup-qualifying-faroe-islands-vs-czech-republic/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Faroe Islands vs Czech Republic [HD] (echo)" group-title="Football",[Football] Faroe Islands vs Czech Republic [HD] (echo)
 https://lb9.strmd.top/secure/zAbezLvFZQZatgHudzGICntzVlvzVung/echo/stream/faroe-islands-vs-czech-republic-football-1323329/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/faroe-islands-vs-czech-republic-football-1323329/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (admin)" group-title="Football",[Football] Scotland vs Belarus [HD] (admin)
 https://lb9.strmd.top/secure/zAbezLvFZQZatgHudzGICntzVlvzVung/echo/stream/faroe-islands-vs-czech-republic-football-1323329/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-scotland-vs-belarus/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (alpha)" group-title="Football",[Football] Scotland vs Belarus [HD] (alpha)
 https://lb3.strmd.top/secure/HhjCKdAOrMVulxEQQXPogdjLWHNTUqxz/alpha/stream/scotland-vs-belarus/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/scotland-vs-belarus/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Chad vs Central African Republic [HD] (alpha)" group-title="Football",[Football] Chad vs Central African Republic [HD] (alpha)
 https://lb3.strmd.top/secure/HhjCKdAOrMVulxEQQXPogdjLWHNTUqxz/alpha/stream/scotland-vs-belarus/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/chad-vs-central-african-republic/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] Chad vs Central African Republic [HD] (echo)" group-title="Football",[Football] Chad vs Central African Republic [HD] (echo)
 https://lb9.strmd.top/secure/xTafNEDQKNxNuVVtrVvZwUHnTBzYAifn/echo/stream/chad-vs-central-african-republic-football-1126114/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/chad-vs-central-african-republic-football-1126114/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] rpool FC Women vs Manchester City WFC [HD] (alpha)" group-title="Football",[Football] rpool FC Women vs Manchester City WFC [HD] (alpha)
 https://lb6.strmd.top/secure/txqzVSsAdpaEaRJzVfLMlLnCYFiLpYsW/alpha/stream/liverpool-w-vs-manchester-city-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/liverpool-w-vs-manchester-city-w/1&Origin=https://embedsports.top
+
 #EXTINF:-1 tvg-name="[Football] rpool FC Women vs Manchester City WFC [HD] (echo)" group-title="Football",[Football] rpool FC Women vs Manchester City WFC [HD] (echo)
 https://lb4.strmd.top/secure/pGcApQFDMDtanSSJiBvIEkQtYEVAfDMn/echo/stream/liverpool-w-vs-manchester-city-w-football-1417231/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/liverpool-w-vs-manchester-city-w-football-1417231/1&Origin=https://embedsports.top
 
