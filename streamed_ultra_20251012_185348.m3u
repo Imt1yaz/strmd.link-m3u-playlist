@@ -1,0 +1,53 @@
+#EXTM3U
+#PLAYLIST:Streamed.pk Ultra [Custom Logic] - 2025-10-12 18:53
+#DESCRIPTION:16 streams in 2.1min
+
+# ====== FOOTBALL (16) ======
+#EXTINF:-1 tvg-name="[Football] Croatia vs Gibraltar [HD] (admin)" group-title="Football",[Football] Croatia vs Gibraltar [HD] (admin)
+https://gg.poocloud.in/wc_croatia/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-croatia-vs-gibraltar/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Croatia vs Gibraltar [HD] (alpha)" group-title="Football",[Football] Croatia vs Gibraltar [HD] (alpha)
+https://lb7.strmd.top/secure/gXFphfxFeeQhVOXiOtcVoGfeGhzcJfSc/alpha/stream/croatia-vs-gibraltar/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/croatia-vs-gibraltar/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Denmark vs Greece [HD] (admin)" group-title="Football",[Football] Denmark vs Greece [HD] (admin)
+https://lb7.strmd.top/secure/gXFphfxFeeQhVOXiOtcVoGfeGhzcJfSc/alpha/stream/croatia-vs-gibraltar/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-denmark-vs-greece/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Denmark vs Greece [HD] (alpha)" group-title="Football",[Football] Denmark vs Greece [HD] (alpha)
+https://lb7.strmd.top/secure/gUIsICzuCpmPWgMrFkEPlxUcUQGrCoEh/alpha/stream/denmark-vs-greece/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/denmark-vs-greece/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Romania vs Austria [HD] (admin)" group-title="Football",[Football] Romania vs Austria [HD] (admin)
+https://gg.poocloud.in/wc_romania/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-romania-vs-austria/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Romania vs Austria [HD] (alpha)" group-title="Football",[Football] Romania vs Austria [HD] (alpha)
+https://lb10.strmd.top/secure/PGAxfDHbMxAUesStGvvkevCVDiPOMlkw/alpha/stream/romania-vs-austria/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/romania-vs-austria/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Lithuania vs Poland [HD] (admin)" group-title="Football",[Football] Lithuania vs Poland [HD] (admin)
+https://lb10.strmd.top/secure/PGAxfDHbMxAUesStGvvkevCVDiPOMlkw/alpha/stream/romania-vs-austria/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-lithuania-vs-poland/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Lithuania vs Poland [HD] (alpha)" group-title="Football",[Football] Lithuania vs Poland [HD] (alpha)
+https://lb1.strmd.top/secure/cxmJsSecFEedPPAOTBCUPgBbGwxCZKHm/alpha/stream/lithuania-vs-poland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/lithuania-vs-poland/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Westchester SC vs FC Naples [HD] (alpha)" group-title="Football",[Football] Westchester SC vs FC Naples [HD] (alpha)
+https://lb1.strmd.top/secure/cxmJsSecFEedPPAOTBCUPgBbGwxCZKHm/alpha/stream/lithuania-vs-poland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/westchester-sc-vs-fc-naples/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Aldosivi vs Huracan [HD] (alpha)" group-title="Football",[Football] Aldosivi vs Huracan [HD] (alpha)
+https://lb1.strmd.top/secure/UyQwSqHNWqNxFLJXcDKTOBAsMybaOORK/alpha/stream/aldosivi-vs-huracan/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/aldosivi-vs-huracan/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Aldosivi vs Huracan [HD] (echo)" group-title="Football",[Football] Aldosivi vs Huracan [HD] (echo)
+https://lb8.strmd.top/secure/xxIToaTsihatZvLIKndDopFsClkYmUAg/echo/stream/aldosivi-vs-huracan-football-1374229/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/aldosivi-vs-huracan-football-1374229/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)
+https://lb8.strmd.top/secure/xxIToaTsihatZvLIKndDopFsClkYmUAg/echo/stream/aldosivi-vs-huracan-football-1374229/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/malta-vs-bosnia-and-herzegovina/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (echo)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (echo)
+https://lb6.strmd.top/secure/VuidcYjJJiKOQBDLdxkBndWLsiBnkNiH/echo/stream/malta-vs-bosnia-herzegovina-football-1351556/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/malta-vs-bosnia-herzegovina-football-1351556/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (admin)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (admin)
+https://gg.poocloud.in/wc_faroe-islands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-faroe-islands-vs-czechia/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (admin)" group-title="Football",[Football] Netherlands vs Finland [HD] (admin)
+https://gg.poocloud.in/wc_netherlands/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-netherlands-vs-finland/1&Origin=https://embedsports.top
+
+#EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (admin)" group-title="Football",[Football] Scotland vs Belarus [HD] (admin)
+https://gg.poocloud.in/wc_scotland/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-scotland-vs-belarus/1&Origin=https://embedsports.top
+
