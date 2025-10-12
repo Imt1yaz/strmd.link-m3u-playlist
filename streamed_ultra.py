@@ -836,60 +836,45 @@ def main():
     if len(filtered) > 0:
         print(f"⚡ Avg time per match: {overall_time/len(filtered):.1f}s")
     
+    # Always write a fresh live playlist (no timestamped file, no append)
+    by_sport = defaultdict(list)
+    for stream in successful:
+        by_sport[stream['sport']].append(stream)
+
+    filename = 'livematches.m3u'
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write('#EXTM3U\n')
+        f.write(f'#PLAYLIST: Streamed.pk Ultra [Custom Logic] - {datetime.now().strftime("%Y-%m-%d %H:%M")}\n')
+        f.write(f'#DESCRIPTION:{len(successful)} streams (fresh run)\n\n')
+
+        for sport in sorted(by_sport.keys()):
+            streams = by_sport[sport]
+            f.write(f'# ====== {sport.upper()} ({len(streams)}) ======\n')
+            for stream in streams:
+                f.write(f'#EXTINF:-1 tvg-name="{stream["name"]}" group-title="{sport}",{stream["name"]}\n')
+                f.write(f'{stream["url"]}\n')
+            f.write('\n')
+
+    print(f"\n✅ Playlist updated: {filename}")
+
+    # Optional reporting (kept for console)
     if successful:
         avg_time = sum(s.get('time', 0) for s in successful) / len(successful)
         print(f"⚡ Avg extraction time: {avg_time:.1f}s per stream")
-        
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = f'streamed_ultra_{timestamp}.m3u'
-        
-        by_sport = defaultdict(list)
-        for stream in successful:
-            by_sport[stream['sport']].append(stream)
-        
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write('#EXTM3U\n')
-            f.write(f'#PLAYLIST:Streamed.pk Ultra [Custom Logic] - {datetime.now().strftime("%Y-%m-%d %H:%M")}\n')
-            f.write(f'#DESCRIPTION:{len(successful)} streams in {overall_time/60:.1f}min\n\n')
-            
-            for sport in sorted(by_sport.keys()):
-                streams = by_sport[sport]
-                f.write(f'# ====== {sport.upper()} ({len(streams)}) ======\n')
-                
-                for stream in streams:
-                    f.write(f'#EXTINF:-1 tvg-name="{stream["name"]}" group-title="{sport}",{stream["name"]}\n')
-                    f.write(f'{stream["url"]}\n\n')
-        
-        print(f"\n✅ Playlist: {filename}")
-        # Append to cumulative live list
-        try:
-            livefile = 'livematches.m3u'
-            first_time = not os.path.exists(livefile)
-            with open(livefile, 'a', encoding='utf-8') as f:
-                if first_time:
-                    f.write('#EXTM3U\n')
-                    f.write('#PLAYLIST: Live Matches Accumulator (auto-updated)\n\n')
-                f.write(f'# ====== UPDATE {datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC ({len(successful)} streams) ======\n')
-                for sport in sorted(by_sport.keys()):
-                    streams = by_sport[sport]
-                    for stream in streams:
-                        f.write(f'#EXTINF:-1 tvg-name="{stream["name"]}" group-title="{sport}",{stream["name"]}\n')
-                        f.write(f'{stream["url"]}\n')
-                f.write('\n')
-            print(f"✅ Appended to {livefile}")
-        except Exception as e:
-            print(f"⚠️ Could not append to livematches.m3u: {e}")
+
         print(f"\n📺 By sport:")
         for sport in sorted(by_sport.keys()):
             print(f"  {sport}: {len(by_sport[sport])}")
-        
+
         by_source = defaultdict(int)
         for stream in successful:
             by_source[stream['source']] += 1
-        
+
         print(f"\n📡 By source:")
         for source in sorted(by_source.keys()):
             print(f"  {source}: {by_source[source]}")
+    else:
+        print("ℹ️ No streams found this run; playlist cleared to fresh header only.")
     
     if failed_matches:
         print(f"\n❌ Failed matches:")
