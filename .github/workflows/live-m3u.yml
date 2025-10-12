@@ -37,7 +37,19 @@ jobs:
 
       - name: Install system deps
         run: |
-          
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends
+          xvfb
+          libgbm1
+          libgtk-3-0
+          libnss3
+          libxss1
+          libasound2t64
+          fonts-liberation
+          xdg-utils
+          libu2f-udev
+          which xvfb-run || echo "xvfb-run not found"
+          Xvfb -version || true
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends
           xvfb
