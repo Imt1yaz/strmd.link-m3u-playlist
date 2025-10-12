@@ -1,69 +1,38 @@
+#EXTM3U
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-12 20:13
+#DESCRIPTION:16 streams (fresh run)
 
-# ====== UPDATE 2025-10-12 17:26 UTC (16 streams) ======
-#EXTINF:-1 tvg-name="[Cricket] India Cricket Women vs Australia Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] India Cricket Women vs Australia Cricket Women [HD] (alpha)
-https://lb10.strmd.top/secure/BAjKjoDNVcOLbLzBMHtNwmThXTEOUAVy/alpha/stream/india-w-vs-australia-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-w-vs-australia-w/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)
-https://lb4.strmd.top/secure/tFYcdIOgnqxqXrImkTvHyhfaTFCxjHPK/alpha/stream/malta-vs-bosnia-and-herzegovina/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/malta-vs-bosnia-and-herzegovina/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (echo)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (echo)
-https://lb8.strmd.top/secure/toDJDqfzbSzwWQdTHIveRfEhWXLVryJF/echo/stream/malta-vs-bosnia-herzegovina-football-1351556/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/malta-vs-bosnia-herzegovina-football-1351556/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (admin)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (admin)
-https://gg.poocloud.in/wc_faroe-islands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-faroe-islands-vs-czechia/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (alpha)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (alpha)
-https://lb3.strmd.top/secure/ksHdAmlYqoxbqxeuwJMBcPubqpFSVRtp/alpha/stream/faroe-islands-vs-czechia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/faroe-islands-vs-czechia/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Juventud Las Piedras vs River Plate Montevideo [HD] (alpha)" group-title="Football",[Football] Juventud Las Piedras vs River Plate Montevideo [HD] (alpha)
-https://lb10.strmd.top/secure/IfOtcQKDjdrTJZeYBeWfSIeBsYiUuzgr/alpha/stream/juventud-vs-river-plate/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/juventud-vs-river-plate/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (admin)" group-title="Football",[Football] Netherlands vs Finland [HD] (admin)
-https://gg.poocloud.in/wc_netherlands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-netherlands-vs-finland/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (alpha)" group-title="Football",[Football] Netherlands vs Finland [HD] (alpha)
-https://lb7.strmd.top/secure/ncDNHaSLIPRcvcwhsOOYbzOjKDheNZFI/alpha/stream/netherlands-vs-finland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/netherlands-vs-finland/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Faroe Islands vs Czech Republic [HD] (hotel)" group-title="Football",[Football] Faroe Islands vs Czech Republic [HD] (hotel)
-https://lb7.strmd.top/secure/ncDNHaSLIPRcvcwhsOOYbzOjKDheNZFI/alpha/stream/netherlands-vs-finland/1/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/world-cup-qualifying-faroe-islands-vs-czech-republic/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Faroe Islands vs Czech Republic [HD] (echo)" group-title="Football",[Football] Faroe Islands vs Czech Republic [HD] (echo)
-https://lb9.strmd.top/secure/zAbezLvFZQZatgHudzGICntzVlvzVung/echo/stream/faroe-islands-vs-czech-republic-football-1323329/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/faroe-islands-vs-czech-republic-football-1323329/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (admin)" group-title="Football",[Football] Scotland vs Belarus [HD] (admin)
-https://lb9.strmd.top/secure/zAbezLvFZQZatgHudzGICntzVlvzVung/echo/stream/faroe-islands-vs-czech-republic-football-1323329/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-scotland-vs-belarus/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (alpha)" group-title="Football",[Football] Scotland vs Belarus [HD] (alpha)
-https://lb3.strmd.top/secure/HhjCKdAOrMVulxEQQXPogdjLWHNTUqxz/alpha/stream/scotland-vs-belarus/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/scotland-vs-belarus/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Chad vs Central African Republic [HD] (alpha)" group-title="Football",[Football] Chad vs Central African Republic [HD] (alpha)
-https://lb3.strmd.top/secure/HhjCKdAOrMVulxEQQXPogdjLWHNTUqxz/alpha/stream/scotland-vs-belarus/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/chad-vs-central-african-republic/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Chad vs Central African Republic [HD] (echo)" group-title="Football",[Football] Chad vs Central African Republic [HD] (echo)
-https://lb9.strmd.top/secure/xTafNEDQKNxNuVVtrVvZwUHnTBzYAifn/echo/stream/chad-vs-central-african-republic-football-1126114/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/chad-vs-central-african-republic-football-1126114/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] rpool FC Women vs Manchester City WFC [HD] (alpha)" group-title="Football",[Football] rpool FC Women vs Manchester City WFC [HD] (alpha)
-https://lb6.strmd.top/secure/txqzVSsAdpaEaRJzVfLMlLnCYFiLpYsW/alpha/stream/liverpool-w-vs-manchester-city-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/liverpool-w-vs-manchester-city-w/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] rpool FC Women vs Manchester City WFC [HD] (echo)" group-title="Football",[Football] rpool FC Women vs Manchester City WFC [HD] (echo)
-https://lb4.strmd.top/secure/pGcApQFDMDtanSSJiBvIEkQtYEVAfDMn/echo/stream/liverpool-w-vs-manchester-city-w-football-1417231/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/liverpool-w-vs-manchester-city-w-football-1417231/1&Origin=https://embedsports.top
-
-# ====== UPDATE 2025-10-12 18:53 UTC (16 streams) ======
+# ====== FOOTBALL (16) ======
+#EXTINF:-1 tvg-name="[Football] Instituto (Cordoba) vs Atletico Tucuman [HD] (alpha)" group-title="Football",[Football] Instituto (Cordoba) vs Atletico Tucuman [HD] (alpha)
+https://lb9.strmd.top/secure/ngsQTAcecPdRiMeVHICOsHPFwzaHfFwB/alpha/stream/instituto-cordoba-vs-atletico-tucuman/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/instituto-cordoba-vs-atletico-tucuman/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Instituto (Cordoba) vs Atletico Tucuman [HD] (echo)" group-title="Football",[Football] Instituto (Cordoba) vs Atletico Tucuman [HD] (echo)
+https://lb10.strmd.top/secure/cFZakzJiGapzduHlrDCvzmycaKARlWsL/echo/stream/instituto-cordoba-vs-atletico-tucuman-football-1374237/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/instituto-cordoba-vs-atletico-tucuman-football-1374237/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Independiente Rivadavia vs Godoy Cruz [HD] (alpha)" group-title="Football",[Football] Independiente Rivadavia vs Godoy Cruz [HD] (alpha)
+https://lb10.strmd.top/secure/cFZakzJiGapzduHlrDCvzmycaKARlWsL/echo/stream/instituto-cordoba-vs-atletico-tucuman-football-1374237/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/independiente-rivadavia-vs-godoy-cruz-antonio-tomba/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Independiente Rivadavia vs Godoy Cruz [HD] (echo)" group-title="Football",[Football] Independiente Rivadavia vs Godoy Cruz [HD] (echo)
+https://lb5.strmd.top/secure/UZxszjOwRRxvAfhYIcnISwBZZPJwBcjK/echo/stream/independ-rivadavia-vs-godoy-cruz-football-1374242/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/independ-rivadavia-vs-godoy-cruz-football-1374242/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Danubio vs Nacional Montevideo [HD] (alpha)" group-title="Football",[Football] Danubio vs Nacional Montevideo [HD] (alpha)
+https://lb3.strmd.top/secure/tdRxdigYUcjiqEzgBWQAwJkpFdYNhRZN/alpha/stream/danubio-vs-nacional/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/danubio-vs-nacional/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Burkina Faso vs Ethiopia [HD] (alpha)" group-title="Football",[Football] Burkina Faso vs Ethiopia [HD] (alpha)
+https://lb10.strmd.top/secure/YrEvJQTTDTYHZBiJXBbbtCIIqEHDPjZQ/alpha/stream/burkina-faso-vs-ethiopia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/burkina-faso-vs-ethiopia/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Burkina Faso vs Ethiopia [HD] (echo)" group-title="Football",[Football] Burkina Faso vs Ethiopia [HD] (echo)
+https://lb7.strmd.top/secure/msZzRUluirihFhuHuXWLxoiPccADRVfs/echo/stream/burkina-faso-vs-ethiopia-football-1126089/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/burkina-faso-vs-ethiopia-football-1126089/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Atlético Ottawa vs Vancouver FC [HD] (alpha)" group-title="Football",[Football] Atlético Ottawa vs Vancouver FC [HD] (alpha)
+https://lb1.strmd.top/secure/hKLRJraoHDrbNQiEWUlLKJRzmcbDYUkT/alpha/stream/atl-ottawa-vs-vancouver-fc/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/atl-ottawa-vs-vancouver-fc/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Atlético Ottawa vs Vancouver FC [HD] (echo)" group-title="Football",[Football] Atlético Ottawa vs Vancouver FC [HD] (echo)
+https://lb7.strmd.top/secure/MLIknayjBtVxWkutiCuxwqrLlRxFFbWA/echo/stream/atletico-ottawa-vs-vancouver-fc-football-1350798/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/atletico-ottawa-vs-vancouver-fc-football-1350798/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Mali vs Madagascar [HD] (alpha)" group-title="Football",[Football] Mali vs Madagascar [HD] (alpha)
+https://lb2.strmd.top/secure/rWzVuaGcEgAGEwFPnKmpBSNXgOffPVNr/alpha/stream/mali-vs-madagascar/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/mali-vs-madagascar/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Ghana vs Comoros [HD] (alpha)" group-title="Football",[Football] Ghana vs Comoros [HD] (alpha)
+https://lb5.strmd.top/secure/IwORnvDuaIQpGUwdSMsmzDcFWbIFjguc/alpha/stream/ghana-vs-comoros/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/ghana-vs-comoros/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Ghana vs Comoros [HD] (echo)" group-title="Football",[Football] Ghana vs Comoros [HD] (echo)
+https://lb2.strmd.top/secure/mVbFntOWIXmETlbfmivpKOVGhBasQEZW/echo/stream/ghana-vs-comoros-football-1126113/2/playlist.m3u8|Referer=https://embedsports.top/embed/echo/ghana-vs-comoros-football-1126113/2&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Egypt vs Guinea-Bissau [HD] (alpha)" group-title="Football",[Football] Egypt vs Guinea-Bissau [HD] (alpha)
+https://lb4.strmd.top/secure/TWwLqwgzueweRpTKCTXlxqwAhVzkZeQd/alpha/stream/egypt-vs-guinea-bissau/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/egypt-vs-guinea-bissau/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Egypt vs Guinea-Bissau [HD] (echo)" group-title="Football",[Football] Egypt vs Guinea-Bissau [HD] (echo)
+https://lb3.strmd.top/secure/bLMLnfifCHiYRCpDHYiokEQkUsKFMuhp/echo/stream/egypt-vs-guinea-bissau-football-1126091/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/egypt-vs-guinea-bissau-football-1126091/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Djibouti vs Sierra Leone [HD] (alpha)" group-title="Football",[Football] Djibouti vs Sierra Leone [HD] (alpha)
+https://lb6.strmd.top/secure/ReogSLmQbsVsicRghKfHFqWsSbwUFGKY/alpha/stream/djibouti-vs-sierra-leone/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/djibouti-vs-sierra-leone/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Croatia vs Gibraltar [HD] (admin)" group-title="Football",[Football] Croatia vs Gibraltar [HD] (admin)
 https://gg.poocloud.in/wc_croatia/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-croatia-vs-gibraltar/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Croatia vs Gibraltar [HD] (alpha)" group-title="Football",[Football] Croatia vs Gibraltar [HD] (alpha)
-https://lb7.strmd.top/secure/gXFphfxFeeQhVOXiOtcVoGfeGhzcJfSc/alpha/stream/croatia-vs-gibraltar/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/croatia-vs-gibraltar/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Denmark vs Greece [HD] (admin)" group-title="Football",[Football] Denmark vs Greece [HD] (admin)
-https://lb7.strmd.top/secure/gXFphfxFeeQhVOXiOtcVoGfeGhzcJfSc/alpha/stream/croatia-vs-gibraltar/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-denmark-vs-greece/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Denmark vs Greece [HD] (alpha)" group-title="Football",[Football] Denmark vs Greece [HD] (alpha)
-https://lb7.strmd.top/secure/gUIsICzuCpmPWgMrFkEPlxUcUQGrCoEh/alpha/stream/denmark-vs-greece/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/denmark-vs-greece/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Romania vs Austria [HD] (admin)" group-title="Football",[Football] Romania vs Austria [HD] (admin)
-https://gg.poocloud.in/wc_romania/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-romania-vs-austria/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Romania vs Austria [HD] (alpha)" group-title="Football",[Football] Romania vs Austria [HD] (alpha)
-https://lb10.strmd.top/secure/PGAxfDHbMxAUesStGvvkevCVDiPOMlkw/alpha/stream/romania-vs-austria/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/romania-vs-austria/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Lithuania vs Poland [HD] (admin)" group-title="Football",[Football] Lithuania vs Poland [HD] (admin)
-https://lb10.strmd.top/secure/PGAxfDHbMxAUesStGvvkevCVDiPOMlkw/alpha/stream/romania-vs-austria/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-lithuania-vs-poland/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Lithuania vs Poland [HD] (alpha)" group-title="Football",[Football] Lithuania vs Poland [HD] (alpha)
-https://lb1.strmd.top/secure/cxmJsSecFEedPPAOTBCUPgBbGwxCZKHm/alpha/stream/lithuania-vs-poland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/lithuania-vs-poland/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Westchester SC vs FC Naples [HD] (alpha)" group-title="Football",[Football] Westchester SC vs FC Naples [HD] (alpha)
-https://lb1.strmd.top/secure/cxmJsSecFEedPPAOTBCUPgBbGwxCZKHm/alpha/stream/lithuania-vs-poland/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/westchester-sc-vs-fc-naples/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Aldosivi vs Huracan [HD] (alpha)" group-title="Football",[Football] Aldosivi vs Huracan [HD] (alpha)
-https://lb1.strmd.top/secure/UyQwSqHNWqNxFLJXcDKTOBAsMybaOORK/alpha/stream/aldosivi-vs-huracan/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/aldosivi-vs-huracan/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Aldosivi vs Huracan [HD] (echo)" group-title="Football",[Football] Aldosivi vs Huracan [HD] (echo)
-https://lb8.strmd.top/secure/xxIToaTsihatZvLIKndDopFsClkYmUAg/echo/stream/aldosivi-vs-huracan-football-1374229/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/aldosivi-vs-huracan-football-1374229/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (alpha)
-https://lb8.strmd.top/secure/xxIToaTsihatZvLIKndDopFsClkYmUAg/echo/stream/aldosivi-vs-huracan-football-1374229/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/malta-vs-bosnia-and-herzegovina/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Malta vs Bosnia-Herzegovina [HD] (echo)" group-title="Football",[Football] Malta vs Bosnia-Herzegovina [HD] (echo)
-https://lb6.strmd.top/secure/VuidcYjJJiKOQBDLdxkBndWLsiBnkNiH/echo/stream/malta-vs-bosnia-herzegovina-football-1351556/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/malta-vs-bosnia-herzegovina-football-1351556/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Faroe Islands vs. Czechia [HD] (admin)" group-title="Football",[Football] Faroe Islands vs. Czechia [HD] (admin)
-https://gg.poocloud.in/wc_faroe-islands/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-faroe-islands-vs-czechia/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Netherlands vs Finland [HD] (admin)" group-title="Football",[Football] Netherlands vs Finland [HD] (admin)
-https://gg.poocloud.in/wc_netherlands/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-netherlands-vs-finland/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Scotland vs Belarus [HD] (admin)" group-title="Football",[Football] Scotland vs Belarus [HD] (admin)
-https://gg.poocloud.in/wc_scotland/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-scotland-vs-belarus/1&Origin=https://embedsports.top
 
