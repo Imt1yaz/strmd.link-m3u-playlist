@@ -86,8 +86,9 @@ SESSION_POOL.mount('http://', adapter)
 SESSION_POOL.mount('https://', adapter)
 
 def setup_enhanced_driver(headless=False):
-    #Setup driver with enhanced network capture and asset blocking
+    """Setup driver with enhanced network capture and asset blocking"""
     options = uc.ChromeOptions()
+
     # Force UC to use Chrome for Testing if provided by setup-chrome
     chrome_bin = (
         os.environ.get("CHROME_PATH")
@@ -100,13 +101,16 @@ def setup_enhanced_driver(headless=False):
     if chrome_bin:
         options.binary_location = chrome_bin
         try:
-            out = subprocess.check_output([chrome_bin, "--version"], stderr=subprocess.STDOUT).decode().strip()
+            out = subprocess.check_output(
+                [chrome_bin, "--version"], stderr=subprocess.STDOUT
+            ).decode().strip()
             # Matches both "Google Chrome for Testing 141.0.7390.76" and "Google Chrome 140.0.7339.207"
             m = re.search(r'(\d+)\.\d+\.\d+\.\d+', out)
             if m:
                 version_main = int(m.group(1))
         except Exception:
             pass
+
         # Fallback to CHROME_VERSION env if available
         if not version_main:
             cv = os.environ.get("CHROME_VERSION", "")
@@ -114,6 +118,7 @@ def setup_enhanced_driver(headless=False):
             if m2:
                 version_main = int(m2.group(1))
 
+    
     if headless:
         options.add_argument('--headless=new')
     
