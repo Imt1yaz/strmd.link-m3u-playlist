@@ -1,24 +1,36 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-12 22:46
-#DESCRIPTION:7 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-12 23:17
+#DESCRIPTION:13 streams (fresh run)
 
-# ====== FIGHT (UFC/BOXING) (1) ======
-#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] Countdown to Bound for Glory 2025 [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] Countdown to Bound for Glory 2025 [HD] (alpha)
-https://lb7.strmd.top/secure/ArSTqNzFZMQFEAeydlUCdPLmmJzQCYLp/alpha/stream/countdown-to-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/countdown-to-bound-for-glory-2025/1&Origin=https://embedsports.top
+# ====== FIGHT (UFC/BOXING) (2) ======
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)
+https://gg.poocloud.in/tna/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-tna-bound-for-glory/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)
+https://lb9.strmd.top/secure/WINcLFjHbVhwvNkEfMUHrtAiFDpWVruX/alpha/stream/countdown-to-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/countdown-to-bound-for-glory-2025/1&Origin=https://embedsports.top
 
-# ====== FOOTBALL (4) ======
+# ====== FOOTBALL (9) ======
+#EXTINF:-1 tvg-name="[Football] Norway U20 vs France U20 [HD] (alpha)" group-title="Football",[Football] Norway U20 vs France U20 [HD] (alpha)
+https://lb9.strmd.top/secure/WINcLFjHbVhwvNkEfMUHrtAiFDpWVruX/alpha/stream/countdown-to-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/norway-u20-vs-france-u20/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Norway U20 vs France U20 [HD] (echo)" group-title="Football",[Football] Norway U20 vs France U20 [HD] (echo)
+https://lb9.strmd.top/secure/OXXKASMlrVKiYJyfXumhLlhErWzVBggj/echo/stream/norway-u20-vs-france-u20-football-1481128/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/norway-u20-vs-france-u20-football-1481128/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Austin FC vs Los Angeles FC [HD] (alpha)" group-title="Football",[Football] Austin FC vs Los Angeles FC [HD] (alpha)
+https://lb8.strmd.top/secure/ZvxUgRmIPNmMrLelkbpGFxpnUkKgHqrI/alpha/stream/austin-fc-vs-lafc/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/austin-fc-vs-lafc/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Austin FC vs Los Angeles FC [HD] (echo)" group-title="Football",[Football] Austin FC vs Los Angeles FC [HD] (echo)
+https://lb4.strmd.top/secure/xtcwTbmJaJljRyfyIEHpWBfRsrobKzpQ/echo/stream/austin-vs-los-angeles-fc-football-1326517/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/austin-vs-los-angeles-fc-football-1326517/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Spokane Zephyr vs Dallas Trinity [HD] (alpha)" group-title="Football",[Football] Spokane Zephyr vs Dallas Trinity [HD] (alpha)
+https://lb8.strmd.top/secure/PzPFddWoDofuOEdxnBMNDUWDtMRLdZWt/alpha/stream/spokane-zephyr-w-vs-dallas-trinity-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/spokane-zephyr-w-vs-dallas-trinity-w/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] River Plate vs Sarmiento [HD] (alpha)" group-title="Football",[Football] River Plate vs Sarmiento [HD] (alpha)
-https://lb2.strmd.top/secure/VVJyyPPgTVuELMvmKrHYhWlsDXGrPxCM/alpha/stream/river-plate-vs-sarmiento-junin/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/river-plate-vs-sarmiento-junin/1&Origin=https://embedsports.top
+https://lb8.strmd.top/secure/PzPFddWoDofuOEdxnBMNDUWDtMRLdZWt/alpha/stream/spokane-zephyr-w-vs-dallas-trinity-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/river-plate-vs-sarmiento-junin/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] River Plate vs Sarmiento [HD] (echo)" group-title="Football",[Football] River Plate vs Sarmiento [HD] (echo)
-https://lb1.strmd.top/secure/ULtyrRyGntGzpFFkZSRomQXOnedIkuAm/echo/stream/river-plate-vs-sarmiento-junin-football-1374240/2/playlist.m3u8|Referer=https://embedsports.top/embed/echo/river-plate-vs-sarmiento-junin-football-1374240/2&Origin=https://embedsports.top
+https://lb4.strmd.top/secure/ARpSfRhorsmjyZHWliCJRLIGmooELJpr/echo/stream/river-plate-vs-sarmiento-junin-football-1374240/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/river-plate-vs-sarmiento-junin-football-1374240/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Angel City vs Houston Dash [HD] (alpha)" group-title="Football",[Football] Angel City vs Houston Dash [HD] (alpha)
-https://lb10.strmd.top/secure/DVFOChvvUTBEUMmqMbVbbtPhXdYchdcp/alpha/stream/angel-city-w-vs-houston-dash-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/angel-city-w-vs-houston-dash-w/1&Origin=https://embedsports.top
+https://lb9.strmd.top/secure/FHEKKBpcELhsgNjhZVIGllvuMZmdfJvJ/alpha/stream/angel-city-w-vs-houston-dash-w/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/angel-city-w-vs-houston-dash-w/2&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Angel City vs Houston Dash [HD] (echo)" group-title="Football",[Football] Angel City vs Houston Dash [HD] (echo)
-https://lb4.strmd.top/secure/QRHIPFTwvKuObyvnelvwYFeVQEPnsQkB/echo/stream/angel-city-w-vs-houston-dash-w-football-1339413/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/angel-city-w-vs-houston-dash-w-football-1339413/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/DepcBHjtmAziTOYKLoqAAFVtrDYTaUTa/echo/stream/angel-city-w-vs-houston-dash-w-football-1339413/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/angel-city-w-vs-houston-dash-w-football-1339413/1&Origin=https://embedsports.top
 
 # ====== MOTOR SPORTS (2) ======
 #EXTINF:-1 tvg-name="[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)" group-title="Motor Sports",[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)
-https://lb6.strmd.top/secure/uJbsvpzIZtmVPQvqHLuMPCkRlPPdPkFQ/alpha/stream/nascar-cup-series-400-las-vegas/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/1&Origin=https://embedsports.top
+https://lb4.strmd.top/secure/AqCFOvDhdYfGmobrbwoNACJXOuHIbfak/alpha/stream/nascar-cup-series-400-las-vegas/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Motor Sports] Texas NHRA FallNationals [HD] (alpha)" group-title="Motor Sports",[Motor Sports] Texas NHRA FallNationals [HD] (alpha)
-https://lb3.strmd.top/secure/xYbHknVEzCKHRJtDSEylGqnfVwDwjZWu/alpha/stream/texas-nhra-fallnationals/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/texas-nhra-fallnationals/1&Origin=https://embedsports.top
+https://lb10.strmd.top/secure/fALRziHxeTHRVGHIiskMGBKkBYosERNI/alpha/stream/texas-nhra-fallnationals/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/texas-nhra-fallnationals/1&Origin=https://embedsports.top
 
