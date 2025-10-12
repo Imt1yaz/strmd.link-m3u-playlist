@@ -85,9 +85,9 @@ SESSION_POOL.mount('http://', adapter)
 SESSION_POOL.mount('https://', adapter)
 
 def setup_enhanced_driver(headless=False):
-    """Setup driver with enhanced network capture and asset blocking"""
+    #Setup driver with enhanced network capture and asset blocking
     options = uc.ChromeOptions()
-
+"""
     # Prefer GitHub Actions Chrome for Testing if provided by setup-chrome => fixes chrome not compatible with driver issue
     chrome_bin = (
         os.environ.get("CHROME_PATH")
@@ -96,7 +96,7 @@ def setup_enhanced_driver(headless=False):
     )
     if chrome_bin:
         options.binary_location = chrome_bin
-
+"""
     
     if headless:
         options.add_argument('--headless=new')
