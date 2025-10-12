@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     env:
-      SCRIPT_PATH: streamed_ultra.py  # change if your script has a different name or path
+      SCRIPT_PATH: streamed_ultra.py   # <-- change if your script is named differently
       PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
@@ -30,7 +30,7 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install Chrome
+      - name: Install Google Chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: stable
@@ -38,29 +38,7 @@ jobs:
       - name: Install system deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends
-          xvfb
-          libgbm1
-          libgtk-3-0
-          libnss3
-          libxss1
-          libasound2t64
-          fonts-liberation
-          xdg-utils
-          libu2f-udev
-          which xvfb-run || echo "xvfb-run not found"
-          Xvfb -version || true
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends
-          xvfb
-          libgbm1
-          libgtk-3-0
-          libnss3
-          libxss1
-          libasound2t64
-          fonts-liberation
-          xdg-utils
-          libu2f-udev
+          sudo apt-get install -y --no-install-recommends xvfb libgbm1 libgtk-3-0 libnss3 libxss1 libasound2 fonts-liberation xdg-utils libu2f-udev
 
       - name: Install Python deps
         run: |
@@ -69,7 +47,7 @@ jobs:
 
       - name: Run scraper under Xvfb (non-headless Chrome)
         run: |
-          xvfb-run -a python "$SCRIPT_PATH"
+          xvfb-run -a --server-args="-screen 0 1920x1080x24" python "$SCRIPT_PATH"
 
       - name: Commit and push changes (if any)
         run: |
