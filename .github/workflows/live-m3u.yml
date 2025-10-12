@@ -16,7 +16,7 @@ jobs:
   run:
     runs-on: ubuntu-22.04
     env:
-      SCRIPT_PATH: streamed_ultra.py  # change if your script has a different name
+      SCRIPT_PATH: streamed_ultra.py    # <-- change if your script filename differs
       PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
@@ -30,20 +30,32 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install Google Chrome (v141 to match ChromeDriver)
+      - name: Install Google Chrome 141 (Chrome for Testing)
+        id: chrome
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: "141"
 
-      - name: Show Chrome version
+      - name: Make Chrome 141 the default "google-chrome"
         run: |
-          which google-chrome || true
-          google-chrome --version || true
+          echo "CHROME_PATH from action: $CHROME_PATH"
+          sudo ln -sf "$CHROME_PATH" /usr/bin/google-chrome
+          which google-chrome
+          google-chrome --version
 
       - name: Install system deps (Xvfb + required libs)
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends xvfb libgbm1 libgtk-3-0 libnss3 libxss1 libasound2 fonts-liberation xdg-utils libu2f-udev
+          sudo apt-get install -y --no-install-recommends \
+            xvfb \
+            libgbm1 \
+            libgtk-3-0 \
+            libnss3 \
+            libxss1 \
+            libasound2 \
+            fonts-liberation \
+            xdg-utils \
+            libu2f-udev
 
       - name: Install Python deps
         run: |
@@ -51,8 +63,17 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper under Xvfb (non-headless Chrome)
+        env:
+          # Explicitly pass Chrome path so your setup_enhanced_driver picks it
+          CHROME_PATH: ${{ env.CHROME_PATH }}
+          GOOGLE_CHROME_BIN: ${{ env.CHROME_PATH }}
         run: |
           xvfb-run -a --server-args="-screen 0 1920x1080x24" python "$SCRIPT_PATH"
+
+      - name: Cleanup legacy timestamped playlists
+        run: |
+          # Remove any old timestamped .m3u files so only livematches.m3u remains
+          find . -maxdepth 1 -type f -name "streamed_ultra_*.m3u" -print -delete || true
 
       - name: Commit and push changes (if any)
         run: |
@@ -60,7 +81,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add -A
-            git commit -m "Update playlists: $(date -u +"%Y-%m-%d %H:%M:%S") UTC"
+            git commit -m "Update live playlist: $(date -u +"%Y-%m-%d %H:%M:%S") UTC"
             git push
           else
             echo "No changes to commit"
