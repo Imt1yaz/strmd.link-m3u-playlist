@@ -18,6 +18,7 @@ MAX: 3 embeds per source
 Background chromme check - non headless
 """
 import os
+import subprocess
 import requests
 import json
 import time
@@ -97,7 +98,33 @@ def setup_enhanced_driver(headless=False):
     if chrome_bin:
         options.binary_location = chrome_bin
 """
-    
+
+    # Force UC to use Chrome for Testing if provided by setup-chrome
+    chrome_bin = (
+        os.environ.get("CHROME_PATH")
+        or os.environ.get("GOOGLE_CHROME_BIN")
+        or os.environ.get("GOOGLE_CHROME_SHIM")
+    )
+
+    # Derive major version from that binary (e.g., 141)
+    version_main = None
+    if chrome_bin:
+        options.binary_location = chrome_bin
+        try:
+            out = subprocess.check_output([chrome_bin, "--version"], stderr=subprocess.STDOUT).decode().strip()
+            # Matches both "Google Chrome for Testing 141.0.7390.76" and "Google Chrome 140.0.7339.207"
+            m = re.search(r'(\d+)\.\d+\.\d+\.\d+', out)
+            if m:
+                version_main = int(m.group(1))
+        except Exception:
+            pass
+        # Fallback to CHROME_VERSION env if available
+        if not version_main:
+            cv = os.environ.get("CHROME_VERSION", "")
+            m2 = re.search(r'^(\d+)', cv)
+            if m2:
+                version_main = int(m2.group(1))
+
     if headless:
         options.add_argument('--headless=new')
     
