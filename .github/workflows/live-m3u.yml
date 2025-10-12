@@ -16,7 +16,7 @@ jobs:
   run:
     runs-on: ubuntu-22.04
     env:
-      SCRIPT_PATH: streamed_ultra.py    # <-- change if your script filename differs
+      SCRIPT_PATH: streamed_ultra.py   # change if your script has a different name/path
       PYTHONUNBUFFERED: "1"
     steps:
       - name: Checkout
@@ -36,12 +36,12 @@ jobs:
         with:
           chrome-version: "141"
 
-      - name: Make Chrome 141 the default "google-chrome"
+      - name: Show Chrome versions
         run: |
-          echo "CHROME_PATH from action: $CHROME_PATH"
-          sudo ln -sf "$CHROME_PATH" /usr/bin/google-chrome
-          which google-chrome
-          google-chrome --version
+          echo "Chrome for Testing path: ${{ steps.chrome.outputs.chrome-path }}"
+          ${{ steps.chrome.outputs.chrome-path }} --version || true
+          which google-chrome || true
+          google-chrome --version || true
 
       - name: Install system deps (Xvfb + required libs)
         run: |
@@ -64,9 +64,10 @@ jobs:
 
       - name: Run scraper under Xvfb (non-headless Chrome)
         env:
-          # Explicitly pass Chrome path so your setup_enhanced_driver picks it
-          CHROME_PATH: ${{ env.CHROME_PATH }}
-          GOOGLE_CHROME_BIN: ${{ env.CHROME_PATH }}
+          # Pass the Chrome for Testing path so your code uses it
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+          GOOGLE_CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
+          CHROME_VERSION: "141"
         run: |
           xvfb-run -a --server-args="-screen 0 1920x1080x24" python "$SCRIPT_PATH"
 
