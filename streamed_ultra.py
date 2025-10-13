@@ -86,6 +86,7 @@ SESSION_POOL.mount('http://', adapter)
 SESSION_POOL.mount('https://', adapter)
 
 # Proxy support (HTTP/HTTPS) via env PROXY_URL, e.g. "http://59.153.18.93:19201"
+
 PROXY_URL = os.environ.get('PROXY_URL', '').strip()
 
 def _ensure_scheme(u: str) -> str:
@@ -97,18 +98,27 @@ def _ensure_scheme(u: str) -> str:
 
 if PROXY_URL:
     PROXY_URL = _ensure_scheme(PROXY_URL)
-    # Apply to requests session
+    # Apply to requests session used for M3U8 tests (keep proxied)
     SESSION_POOL.proxies.update({
         'http': PROXY_URL,
         'https': PROXY_URL
     })
-    # Also set standard env vars so any library respecting them uses the proxy
-    os.environ['HTTP_PROXY'] = PROXY_URL
-    os.environ['HTTPS_PROXY'] = PROXY_URL
 
+# Do NOT set HTTP_PROXY/HTTPS_PROXY globally; they force all libs through the proxy
 # Ensure local connections are not proxied (helps Chrome/Driver comms)
 os.environ.setdefault('NO_PROXY', '127.0.0.1,localhost')
 os.environ.setdefault('no_proxy', '127.0.0.1,localhost')
+
+# Create a clean, non-proxied session for API calls (bypasses proxy)
+API_SESSION = requests.Session()
+api_adapter = requests.adapters.HTTPAdapter(
+    pool_connections=ULTRA_CONFIG['connection_pool_size'],
+    pool_maxsize=ULTRA_CONFIG['connection_pool_size'],
+    max_retries=1
+)
+API_SESSION.mount('http://', api_adapter)
+API_SESSION.mount('https://', api_adapter)
+API_SESSION.trust_env = False  # ignore any env proxies
 
 
 def setup_enhanced_driver(headless=False):
@@ -602,7 +612,7 @@ def fetch_popular_live_matches():
     print("\n🔍 Fetching live matches...")
     headers = {'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'}
     try:
-        response = SESSION_POOL.get(f"{API_BASE}/matches/live/popular", headers=headers, timeout=15, verify=False)
+        response = API_SESSION.get(f"{API_BASE}/matches/live/popular", headers=headers, timeout=15, verify=False)
         if response.status_code == 200:
             matches = response.json()
             if isinstance(matches, list):
@@ -632,27 +642,24 @@ def fetch_stream_embeds_smart(match):
     """Fetch embeds - ONLY from admin/alpha/hotel/echo"""
     sources = match.get('sources', [])
     embeds_by_source = defaultdict(list)
-    
+
     headers = {'User-Agent': 'Mozilla/5.0', 'Accept': 'application/json'}
-    
+
     for source in sources:
         raw_source_name = source.get('source')
         source_id = source.get('id')
-        
+
         if not raw_source_name or not source_id:
             continue
-        
-        # normalize to lowercase for consistent logic
+
         source_name = raw_source_name.lower()
-        
-        # ⚡ FILTER: Only fetch from allowed sources
+
         if source_name not in PRIORITY_SOURCES:
             continue
-        
+
         try:
             url = f"{API_BASE}/stream/{source_name}/{source_id}"
-            response = SESSION_POOL.get(url, headers=headers, timeout=8, verify=False)
-            
+            response = API_SESSION.get(url, headers=headers, timeout=8, verify=False)  # <-- API_SESSION
             if response.status_code == 200:
                 streams = response.json()
                 for stream in streams:
@@ -666,7 +673,7 @@ def fetch_stream_embeds_smart(match):
                         })
         except:
             continue
-    
+
     return dict(embeds_by_source)
 
 def determine_sources_to_process(embeds_by_source):
