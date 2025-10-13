@@ -1,12 +1,8 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 09:51
-#DESCRIPTION:3 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 10:24
+#DESCRIPTION:1 streams (fresh run)
 
-# ====== CRICKET (3) ======
+# ====== CRICKET (1) ======
 #EXTINF:-1 tvg-name="[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)
-https://lb9.strmd.top/secure/yFgokJqlWjizJrctTVWpRLRxJigcjaqB/alpha/stream/bangladesh-w-vs-south-africa-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (alpha)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (alpha)
-https://lb2.strmd.top/secure/SemDuUZoTlKCFbIEayyzrlzOUzZWTBxK/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (echo)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (echo)
-https://lb2.strmd.top/secure/oKrjCdPSzwalofjgWBFnkwzErTQTWpzU/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
+https://lb7.strmd.top/secure/DJbfsrCHRJqrnuhFKVZoxXmJDYbUJpTQ/alpha/stream/bangladesh-w-vs-south-africa-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
 
