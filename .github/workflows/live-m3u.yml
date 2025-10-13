@@ -68,6 +68,9 @@ jobs:
           CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
           GOOGLE_CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
           CHROME_VERSION: "141"
+          PROXY_URL: ${{ secrets.PROXY_URL }}
+          # Optional: stable desktop UA
+          BROWSER_UA: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
         run: |
           xvfb-run -a --server-args="-screen 0 1920x1080x24" python "$SCRIPT_PATH"
 
