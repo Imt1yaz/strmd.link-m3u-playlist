@@ -85,9 +85,38 @@ adapter = requests.adapters.HTTPAdapter(
 SESSION_POOL.mount('http://', adapter)
 SESSION_POOL.mount('https://', adapter)
 
+# Proxy support (HTTP/HTTPS) via env PROXY_URL, e.g. "http://59.153.18.93:19201"
+PROXY_URL = os.environ.get('PROXY_URL', '').strip()
+
+def _ensure_scheme(u: str) -> str:
+    if not u:
+        return ''
+    if not re.match(r'^[a-zA-Z]+://', u):
+        return f'http://{u}'
+    return u
+
+if PROXY_URL:
+    PROXY_URL = _ensure_scheme(PROXY_URL)
+    # Apply to requests session
+    SESSION_POOL.proxies.update({
+        'http': PROXY_URL,
+        'https': PROXY_URL
+    })
+    # Also set standard env vars so any library respecting them uses the proxy
+    os.environ['HTTP_PROXY'] = PROXY_URL
+    os.environ['HTTPS_PROXY'] = PROXY_URL
+
+
 def setup_enhanced_driver(headless=False):
     """Setup driver with enhanced network capture and asset blocking"""
     options = uc.ChromeOptions()
+
+    # Route Selenium traffic through the proxy too
+    if PROXY_URL:
+        options.add_argument(f'--proxy-server={PROXY_URL}')
+        # Reduce IP leaks via WebRTC (keeps WebRTC on the proxied interface)
+        options.add_argument('--force-webrtc-ip-handling-policy=disable_non_proxied_udp')
+        options.add_argument('--enforce-webrtc-ip-permission-check')
 
     # Force UC to use Chrome for Testing if provided by setup-chrome
     chrome_bin = (
