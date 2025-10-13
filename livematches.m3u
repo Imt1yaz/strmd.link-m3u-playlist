@@ -1,14 +1,14 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 06:34
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 06:56
 #DESCRIPTION:4 streams (fresh run)
 
 # ====== CRICKET (4) ======
 #EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (alpha)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (alpha)
-https://lb4.strmd.top/secure/ppDDzpamhOYuWTLrnbIHqAweifOjwxpk/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/PDGjlNWTXyqDZMPgHiEajemotyFtOPkv/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (echo)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (echo)
-https://lb8.strmd.top/secure/UfYEEjwXqXDSKZPLiJyvMWuIqkbuBPKn/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
+https://lb7.strmd.top/secure/hzswskTZUMVEfYpYIWaIXQBYnPaagsWL/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (alpha)" group-title="Cricket",[Cricket] India vs West Indies [HD] (alpha)
-https://lb5.strmd.top/secure/NnalpXldVUeyTvcnhLYsiYDaTmeOOPMW/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
+https://lb9.strmd.top/secure/SCApLrFmlCXfFxqzHVGwuDUEOJVPkvnj/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (echo)" group-title="Cricket",[Cricket] India vs West Indies [HD] (echo)
-https://lb8.strmd.top/secure/EaNbADmfDEhnTExrJvcpuXdcPDhDBkFR/echo/stream/test-series-india-vs-west-indies-day-4-cricket-787894/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-india-vs-west-indies-day-4-cricket-787894/2&Origin=https://embedsports.top
+https://lb4.strmd.top/secure/zrjyIbjBBNKeqnumMjwNMlyltSPtsuQL/echo/stream/test-series-india-vs-west-indies-day-4-cricket-787894/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-india-vs-west-indies-day-4-cricket-787894/1&Origin=https://embedsports.top
 
