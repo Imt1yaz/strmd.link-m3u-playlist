@@ -1,8 +1,8 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 03:57
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 04:23
 #DESCRIPTION:1 streams (fresh run)
 
-# ====== MOTOR SPORTS (1) ======
-#EXTINF:-1 tvg-name="[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)" group-title="Motor Sports",[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)
-https://lb6.strmd.top/secure/JqTTcJtBpfQdlkZInHIXMNQtTxgIaezV/alpha/stream/nascar-cup-series-400-las-vegas/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/2&Origin=https://embedsports.top
+# ====== CRICKET (1) ======
+#EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (alpha)" group-title="Cricket",[Cricket] India vs West Indies [HD] (alpha)
+https://lb6.strmd.top/secure/FWfqJCezRmomTKJXvnUXeBRkVsFZAKdu/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
 
