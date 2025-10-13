@@ -1,10 +1,10 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 13:31
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 13:52
 #DESCRIPTION:6 streams (fresh run)
 
 # ====== CRICKET (1) ======
 #EXTINF:-1 tvg-name="[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)
-https://gg.poocloud.in/wrestling/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
+https://lb1.strmd.top/secure/dDCkTnHMKsnvWYnShzxTsPpAFWCWHYLf/alpha/stream/bangladesh-w-vs-south-africa-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
 
 # ====== FIGHT (UFC/BOXING) (1) ======
 #EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] WWE: Monday Night RAW [HD] (admin)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] WWE: Monday Night RAW [HD] (admin)
@@ -12,11 +12,11 @@ https://gg.poocloud.in/wrestling/index.m3u8|Referer=https://embedsports.top/embe
 
 # ====== FOOTBALL (4) ======
 #EXTINF:-1 tvg-name="[Football] Sao Tome and Principe vs Malawi [HD] (alpha)" group-title="Football",[Football] Sao Tome and Principe vs Malawi [HD] (alpha)
-https://lb8.strmd.top/secure/EFlGvOUBARDRKvFMabARMijhJEaATzsj/alpha/stream/sao-tome-and-principe-vs-malawi/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/sao-tome-and-principe-vs-malawi/1&Origin=https://embedsports.top
+https://lb2.strmd.top/secure/mDkImfytpPPtWNFqpTMNpGtAUGsFdzZP/alpha/stream/sao-tome-and-principe-vs-malawi/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/sao-tome-and-principe-vs-malawi/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] South Sudan vs Togo [HD] (alpha)" group-title="Football",[Football] South Sudan vs Togo [HD] (alpha)
-https://lb8.strmd.top/secure/EFlGvOUBARDRKvFMabARMijhJEaATzsj/alpha/stream/sao-tome-and-principe-vs-malawi/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/south-sudan-vs-togo/1&Origin=https://embedsports.top
+https://lb9.strmd.top/secure/IabqNfhzlOtogSNJeuoDeywaIOuyOKTy/alpha/stream/south-sudan-vs-togo/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/south-sudan-vs-togo/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Tunisia vs Namibia [HD] (alpha)" group-title="Football",[Football] Tunisia vs Namibia [HD] (alpha)
-https://lb2.strmd.top/secure/NaCDJlbCTpAScKdfXGeeTdmGCTVerdsV/alpha/stream/tunisia-vs-namibia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/tunisia-vs-namibia/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/pLsVZYQgSoCjwJEVlTYwxXxTmdPfeTQY/alpha/stream/tunisia-vs-namibia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/tunisia-vs-namibia/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Equatorial Guinea vs Liberia [HD] (alpha)" group-title="Football",[Football] Equatorial Guinea vs Liberia [HD] (alpha)
-https://lb10.strmd.top/secure/ZhvWRSuqafcaOmuKqixuUPyTqAUWkJVK/alpha/stream/equatorial-guinea-vs-liberia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/equatorial-guinea-vs-liberia/1&Origin=https://embedsports.top
+https://lb9.strmd.top/secure/tSxmNouRMKmxplHUZDnUPGkxNnFwLqdM/alpha/stream/equatorial-guinea-vs-liberia/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/equatorial-guinea-vs-liberia/1&Origin=https://embedsports.top
 
