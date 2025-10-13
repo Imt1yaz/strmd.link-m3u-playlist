@@ -1,10 +1,14 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 11:48
-#DESCRIPTION:2 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 12:42
+#DESCRIPTION:3 streams (fresh run)
 
 # ====== CRICKET (2) ======
 #EXTINF:-1 tvg-name="[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (echo)" group-title="Cricket",[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (echo)
-https://lb5.strmd.top/secure/AddNtFgdawqrbXbfzHUtYrGTcQArdRfD/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
+https://lb1.strmd.top/secure/CjnjPYpBozUIXBylpYDAyISSKIDsqbSe/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)
-https://lb5.strmd.top/secure/AddNtFgdawqrbXbfzHUtYrGTcQArdRfD/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
+https://lb6.strmd.top/secure/TDgGiWWoDqpAdleNyrpLNbnktGGHXlKP/alpha/stream/bangladesh-w-vs-south-africa-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/1&Origin=https://embedsports.top
+
+# ====== FIGHT (UFC/BOXING) (1) ======
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] WWE: Monday Night RAW [HD] (admin)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] WWE: Monday Night RAW [HD] (admin)
+https://gg.poocloud.in/wrestling/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-wwe-monday-night-raw/1&Origin=https://embedsports.top
 
