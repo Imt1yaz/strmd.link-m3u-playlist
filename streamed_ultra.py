@@ -106,6 +106,10 @@ if PROXY_URL:
     os.environ['HTTP_PROXY'] = PROXY_URL
     os.environ['HTTPS_PROXY'] = PROXY_URL
 
+# Ensure local connections are not proxied (helps Chrome/Driver comms)
+os.environ.setdefault('NO_PROXY', '127.0.0.1,localhost')
+os.environ.setdefault('no_proxy', '127.0.0.1,localhost')
+
 
 def setup_enhanced_driver(headless=False):
     """Setup driver with enhanced network capture and asset blocking"""
