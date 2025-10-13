@@ -1,24 +1,14 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 01:14
-#DESCRIPTION:7 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 03:01
+#DESCRIPTION:3 streams (fresh run)
 
 # ====== FIGHT (UFC/BOXING) (2) ======
 #EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)
-https://gg.poocloud.in/tna/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-tna-bound-for-glory/1&Origin=https://embedsports.top
+https://gg.poocloud.in/tna/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-tna-bound-for-glory/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)
-https://lb1.strmd.top/secure/IxGAhaWCkkLCFswvMIIHWEbrQkiQAFEa/alpha/stream/tna-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/tna-bound-for-glory-2025/1&Origin=https://embedsports.top
-
-# ====== FOOTBALL (4) ======
-#EXTINF:-1 tvg-name="[Football] Independiente vs Lanus [HD] (alpha)" group-title="Football",[Football] Independiente vs Lanus [HD] (alpha)
-https://lb9.strmd.top/secure/ypFZoDCvTudezLreavUfICbsIvauJMeE/alpha/stream/independiente-vs-lanus/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/independiente-vs-lanus/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Independiente vs Lanus [HD] (echo)" group-title="Football",[Football] Independiente vs Lanus [HD] (echo)
-https://lb10.strmd.top/secure/DPJCmkudvKLuBYzZReEzGTlJSBWVylWh/echo/stream/independiente-vs-lanus-football-1374235/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/independiente-vs-lanus-football-1374235/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Norway U20 vs France U20 [HD] (alpha)" group-title="Football",[Football] Norway U20 vs France U20 [HD] (alpha)
-https://lb10.strmd.top/secure/DPJCmkudvKLuBYzZReEzGTlJSBWVylWh/echo/stream/independiente-vs-lanus-football-1374235/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/norway-u20-vs-france-u20/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Austin FC vs Los Angeles FC [HD] (alpha)" group-title="Football",[Football] Austin FC vs Los Angeles FC [HD] (alpha)
-https://lb1.strmd.top/secure/wpCAncNniSqRDZoxRjUDqaJejxKrYTLo/alpha/stream/austin-fc-vs-lafc/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/austin-fc-vs-lafc/1&Origin=https://embedsports.top
+https://lb9.strmd.top/secure/WfqMozkpgnjnZengmKJLbJVtPITBIZWb/alpha/stream/tna-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/tna-bound-for-glory-2025/1&Origin=https://embedsports.top
 
 # ====== MOTOR SPORTS (1) ======
 #EXTINF:-1 tvg-name="[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)" group-title="Motor Sports",[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)
-https://lb3.strmd.top/secure/OEYnQALEWUsEZkcPNLakPgLxvFcNfUoM/alpha/stream/nascar-cup-series-400-las-vegas/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/1&Origin=https://embedsports.top
+https://lb2.strmd.top/secure/reSoCIxoIjrImLzavHKkqLDnEFyYdRak/alpha/stream/nascar-cup-series-400-las-vegas/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/1&Origin=https://embedsports.top
 
