@@ -1,14 +1,8 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 03:01
-#DESCRIPTION:3 streams (fresh run)
-
-# ====== FIGHT (UFC/BOXING) (2) ======
-#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (admin)
-https://gg.poocloud.in/tna/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-tna-bound-for-glory/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] TNA: Bound For Glory [HD] (alpha)
-https://lb9.strmd.top/secure/WfqMozkpgnjnZengmKJLbJVtPITBIZWb/alpha/stream/tna-bound-for-glory-2025/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/tna-bound-for-glory-2025/1&Origin=https://embedsports.top
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 03:57
+#DESCRIPTION:1 streams (fresh run)
 
 # ====== MOTOR SPORTS (1) ======
 #EXTINF:-1 tvg-name="[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)" group-title="Motor Sports",[Motor Sports] NASCAR Cup Series 400 Las Vegas [HD] (alpha)
-https://lb2.strmd.top/secure/reSoCIxoIjrImLzavHKkqLDnEFyYdRak/alpha/stream/nascar-cup-series-400-las-vegas/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/1&Origin=https://embedsports.top
+https://lb6.strmd.top/secure/JqTTcJtBpfQdlkZInHIXMNQtTxgIaezV/alpha/stream/nascar-cup-series-400-las-vegas/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nascar-cup-series-400-las-vegas/2&Origin=https://embedsports.top
 
