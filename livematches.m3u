@@ -1,10 +1,12 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 05:22
-#DESCRIPTION:2 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 05:48
+#DESCRIPTION:3 streams (fresh run)
 
-# ====== CRICKET (2) ======
+# ====== CRICKET (3) ======
 #EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (alpha)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (alpha)
-https://lb2.strmd.top/secure/eDeBhBwjUlzGTLjIOjZbrnPkixkwbhMR/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/qumEhPNUTqaOWUWEzGeZDnCIjBcMdYMR/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (alpha)" group-title="Cricket",[Cricket] India vs West Indies [HD] (alpha)
-https://lb5.strmd.top/secure/dFQJvToMcjlfyCeStCiejrHVUeGEFcbr/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/WUZZgayupgModMETeOvicHbqjNckqPbZ/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (echo)" group-title="Cricket",[Cricket] India vs West Indies [HD] (echo)
+https://lb2.strmd.top/secure/mQmZsFHBireGzevhTZvmZkhtUPeIbiAi/echo/stream/test-series-india-vs-west-indies-day-4-cricket-787894/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-india-vs-west-indies-day-4-cricket-787894/1&Origin=https://embedsports.top
 
