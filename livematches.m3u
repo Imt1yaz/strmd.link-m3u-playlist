@@ -1,16 +1,8 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 17:49
-#DESCRIPTION:5 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 18:28
+#DESCRIPTION:1 streams (fresh run)
 
-# ====== FOOTBALL (5) ======
-#EXTINF:-1 tvg-name="[Football] Montenegro vs Liechtenstein [HD] (alpha)" group-title="Football",[Football] Montenegro vs Liechtenstein [HD] (alpha)
-https://lb5.strmd.top/secure/wmTUEvIZyccQwmUlqmKosLEyVQJZznAV/alpha/stream/montenegro-vs-liechtenstein/3/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/montenegro-vs-liechtenstein/3&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Cameroon vs Angola [HD] (alpha)" group-title="Football",[Football] Cameroon vs Angola [HD] (alpha)
-https://lb4.strmd.top/secure/ttMwiIHXpVIGOxPnasFDdKRxPcTuaMqQ/alpha/stream/cameroon-vs-angola/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/cameroon-vs-angola/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Mauritius vs Libya [HD] (alpha)" group-title="Football",[Football] Mauritius vs Libya [HD] (alpha)
-https://lb4.strmd.top/secure/culwyrxwUSNDTFtYoKMSFPAgBuHmrOjv/alpha/stream/mauritius-vs-libya/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/mauritius-vs-libya/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Cape Verde vs Eswatini [HD] (alpha)" group-title="Football",[Football] Cape Verde vs Eswatini [HD] (alpha)
-https://lb5.strmd.top/secure/wmTUEvIZyccQwmUlqmKosLEyVQJZznAV/alpha/stream/montenegro-vs-liechtenstein/3/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/cape-verde-islands-vs-eswatini/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Lesotho vs Zimbabwe (alpha)" group-title="Football",[Football] Lesotho vs Zimbabwe (alpha)
-https://lb7.strmd.top/secure/xoLrlbfyuPElFgOFeCuWErmaoufETMFn/alpha/stream/lesotho-vs-zimbabwe/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/lesotho-vs-zimbabwe/2&Origin=https://embedsports.top
+# ====== FIGHT (UFC/BOXING) (1) ======
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] Inside the Ring | Episode 6 [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] Inside the Ring | Episode 6 [HD] (alpha)
+https://lb4.strmd.top/secure/tPooVLtgeWAbahWmDRtoTjPwOyDxmykU/alpha/stream/inside-the-ring-episode-6/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/inside-the-ring-episode-6/1&Origin=https://embedsports.top
 
