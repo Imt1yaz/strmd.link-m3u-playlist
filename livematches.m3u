@@ -1,8 +1,10 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 04:23
-#DESCRIPTION:1 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 05:22
+#DESCRIPTION:2 streams (fresh run)
 
-# ====== CRICKET (1) ======
+# ====== CRICKET (2) ======
+#EXTINF:-1 tvg-name="[Cricket] Pakistan vs South Africa [HD] (alpha)" group-title="Cricket",[Cricket] Pakistan vs South Africa [HD] (alpha)
+https://lb2.strmd.top/secure/eDeBhBwjUlzGTLjIOjZbrnPkixkwbhMR/alpha/stream/pakistan-vs-south-africa/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/pakistan-vs-south-africa/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Cricket] India vs West Indies [HD] (alpha)" group-title="Cricket",[Cricket] India vs West Indies [HD] (alpha)
-https://lb6.strmd.top/secure/FWfqJCezRmomTKJXvnUXeBRkVsFZAKdu/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/dFQJvToMcjlfyCeStCiejrHVUeGEFcbr/alpha/stream/india-vs-west-indies/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/india-vs-west-indies/1&Origin=https://embedsports.top
 
