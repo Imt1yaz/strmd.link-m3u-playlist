@@ -1,4 +1,20 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 16:10
-#DESCRIPTION:0 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 16:28
+#DESCRIPTION:6 streams (fresh run)
+
+# ====== CRICKET (1) ======
+#EXTINF:-1 tvg-name="[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] Bangladesh Cricket Women vs South Africa Cricket Women [HD] (alpha)
+https://lb9.strmd.top/secure/cWzPXrJhArCrZbqmxccUMWizNMBYDOWn/alpha/stream/bangladesh-w-vs-south-africa-w/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/bangladesh-w-vs-south-africa-w/2&Origin=https://embedsports.top
+
+# ====== FOOTBALL (5) ======
+#EXTINF:-1 tvg-name="[Football] Montenegro vs Liechtenstein [HD] (alpha)" group-title="Football",[Football] Montenegro vs Liechtenstein [HD] (alpha)
+https://lb10.strmd.top/secure/dPqPStmaZerECODgVOorSzYtAJhwlkXc/alpha/stream/montenegro-vs-liechtenstein/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/montenegro-vs-liechtenstein/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Cameroon vs Angola [HD] (alpha)" group-title="Football",[Football] Cameroon vs Angola [HD] (alpha)
+https://lb10.strmd.top/secure/dPqPStmaZerECODgVOorSzYtAJhwlkXc/alpha/stream/montenegro-vs-liechtenstein/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/cameroon-vs-angola/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Mauritius vs Libya [HD] (alpha)" group-title="Football",[Football] Mauritius vs Libya [HD] (alpha)
+https://lb10.strmd.top/secure/PyQKPPOIQCHfbHxhWDScjKqQwscKZEWC/alpha/stream/cameroon-vs-angola/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/mauritius-vs-libya/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Cape Verde vs Eswatini [HD] (alpha)" group-title="Football",[Football] Cape Verde vs Eswatini [HD] (alpha)
+https://lb7.strmd.top/secure/ojiGNUzTIIpQNtlSyJBEDKFAhleopFbI/alpha/stream/cape-verde-islands-vs-eswatini/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/cape-verde-islands-vs-eswatini/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Lesotho vs Zimbabwe [HD] (alpha)" group-title="Football",[Football] Lesotho vs Zimbabwe [HD] (alpha)
+https://lb7.strmd.top/secure/ojiGNUzTIIpQNtlSyJBEDKFAhleopFbI/alpha/stream/cape-verde-islands-vs-eswatini/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/lesotho-vs-zimbabwe/1&Origin=https://embedsports.top
 
