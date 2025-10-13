@@ -61,7 +61,7 @@ ULTRA_CONFIG = {
     'initial_wait': 4,
     'smart_page_load': True,
     'parallel_m3u8_test': True,
-    'one_stream_per_match': False,  # keep as requested
+    'one_stream_per_match': True,  # keep as requested
     'max_workers': 3,
     'max_monitor_time': 25,
     'no_new_urls_timeout': 8,
