@@ -1,22 +1,22 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 19:20
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-13 19:49
 #DESCRIPTION:8 streams (fresh run)
 
 # ====== FOOTBALL (8) ======
-#EXTINF:-1 tvg-name="[Football] Iceland vs France [HD] (alpha)" group-title="Football",[Football] Iceland vs France [HD] (alpha)
-https://lb3.strmd.top/secure/ulcZdKEVgbFiKNitOdJrNBrLgETCOdDd/alpha/stream/iceland-vs-france/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/iceland-vs-france/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Iceland vs France [HD] (admin)" group-title="Football",[Football] Iceland vs France [HD] (admin)
+https://gg.poocloud.in/wc_iceland/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-iceland-vs-france/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] N.Ireland vs Germany [HD] (admin)" group-title="Football",[Football] N.Ireland vs Germany [HD] (admin)
-https://lb3.strmd.top/secure/ulcZdKEVgbFiKNitOdJrNBrLgETCOdDd/alpha/stream/iceland-vs-france/1/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-northern-ireland-vs-germany/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_northern-ireland/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-northern-ireland-vs-germany/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Wales vs Belgium [HD] (admin)" group-title="Football",[Football] Wales vs Belgium [HD] (admin)
 https://gg.poocloud.in/wc_northern-ireland/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-wales-vs-belgium/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] North Macedonia vs Kazakhstan [HD] (admin)" group-title="Football",[Football] North Macedonia vs Kazakhstan [HD] (admin)
-https://gg.poocloud.in/wc_north-macedonia/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-north-macedonia-vs-kazakhstan/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_north-macedonia/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-north-macedonia-vs-kazakhstan/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Ukraine vs Azerbaijan [HD] (admin)" group-title="Football",[Football] Ukraine vs Azerbaijan [HD] (admin)
-https://gg.poocloud.in/wc_ukraine/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-ukraine-vs-azerbaijan/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_ukraine/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-ukraine-vs-azerbaijan/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Sweden vs Kosovo [HD] (admin)" group-title="Football",[Football] Sweden vs Kosovo [HD] (admin)
-https://gg.poocloud.in/wc_ukraine/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-sweden-vs-kosovo/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_sweden/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-sweden-vs-kosovo/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Slovenia vs Switzerland [HD] (admin)" group-title="Football",[Football] Slovenia vs Switzerland [HD] (admin)
 https://gg.poocloud.in/wc_slovenia/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-slovenia-vs-switzerland/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Slovakia vs Luxembourg [HD] (admin)" group-title="Football",[Football] Slovakia vs Luxembourg [HD] (admin)
-https://gg.poocloud.in/wc_slovakia/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-slovakia-vs-luxembourg/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_sweden/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-slovakia-vs-luxembourg/1&Origin=https://embedsports.top
 
