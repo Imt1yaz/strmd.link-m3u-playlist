@@ -1,8 +1,10 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 11:05
-#DESCRIPTION:1 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 11:17
+#DESCRIPTION:2 streams (fresh run)
 
-# ====== CRICKET (1) ======
-#EXTINF:-1 tvg-name="[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (echo)" group-title="Cricket",[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (echo)
-https://lb8.strmd.top/secure/BpjiTeCqdLeMVyoTbceBqBJVjQQYElXj/echo/stream/test-series-pakistan-vs-south-africa-cricket2203/1/playlist.m3u8|Referer=https://embedsports.top/embed/echo/test-series-pakistan-vs-south-africa-cricket2203/1&Origin=https://embedsports.top
+# ====== CRICKET (2) ======
+#EXTINF:-1 tvg-name="[Cricket] Sri Lanka Cricket Women vs New Zealand Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] Sri Lanka Cricket Women vs New Zealand Cricket Women [HD] (alpha)
+https://lb6.strmd.top/secure/gvGGYtTTeQudNsNFzupbZdFMajLuipLf/alpha/stream/sri-lanka-w-vs-new-zealand-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/sri-lanka-w-vs-new-zealand-w/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (hotel)" group-title="Cricket",[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (hotel)
+https://lb6.strmd.top/secure/gvGGYtTTeQudNsNFzupbZdFMajLuipLf/alpha/stream/sri-lanka-w-vs-new-zealand-w/1/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/1st-test-day-3-pakistan-vs-south-africa/1&Origin=https://embedsports.top
 
