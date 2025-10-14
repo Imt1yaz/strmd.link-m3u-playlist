@@ -1,24 +1,18 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 17:51
-#DESCRIPTION:9 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 18:32
+#DESCRIPTION:5 streams (fresh run)
 
-# ====== FOOTBALL (9) ======
+# ====== FIGHT (UFC/BOXING) (1) ======
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] The Bare Knuckle Show with Brian Soscia: Season 2, Episode 120 [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] The Bare Knuckle Show with Brian Soscia: Season 2, Episode 120 [HD] (alpha)
+https://lb6.strmd.top/secure/OysRmqimbRNWZyKWNvnECdnWEjpljLcs/alpha/stream/the-bare-knuckle-show-with-brian-soscia-season-2-episode-120/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/the-bare-knuckle-show-with-brian-soscia-season-2-episode-120/1&Origin=https://embedsports.top
+
+# ====== FOOTBALL (4) ======
 #EXTINF:-1 tvg-name="[Football] Qatar vs United Arab Emirates (alpha)" group-title="Football",[Football] Qatar vs United Arab Emirates (alpha)
-https://lb2.strmd.top/secure/MKuAejXbFIekkPnzbsKPIseDshnahWZL/alpha/stream/qatar-vs-united-arab-emirates/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/qatar-vs-united-arab-emirates/2&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/WTasekgxFWOkpJNGbJzIpMIgfdQURJjm/alpha/stream/qatar-vs-united-arab-emirates/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/qatar-vs-united-arab-emirates/2&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Albania vs Jordan [HD] (hotel)" group-title="Football",[Football] Albania vs Jordan [HD] (hotel)
-https://lb2.strmd.top/secure/MKuAejXbFIekkPnzbsKPIseDshnahWZL/alpha/stream/qatar-vs-united-arab-emirates/2/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/friendly-albania-vs-jordan/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Norway vs New Zealand [HD] (echo)" group-title="Football",[Football] Norway vs New Zealand [HD] (echo)
-https://lb4.strmd.top/secure/RluZttYGhutabcWGFYYrnnFAmVebvdRg/echo/stream/norway-vs-new-zealand-football-1352746/2/playlist.m3u8|Referer=https://embedsports.top/embed/echo/norway-vs-new-zealand-football-1352746/2&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/WTasekgxFWOkpJNGbJzIpMIgfdQURJjm/alpha/stream/qatar-vs-united-arab-emirates/2/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/friendly-albania-vs-jordan/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Estonia vs Moldova [HD] (admin)" group-title="Football",[Football] Estonia vs Moldova [HD] (admin)
-https://lb4.strmd.top/secure/RluZttYGhutabcWGFYYrnnFAmVebvdRg/echo/stream/norway-vs-new-zealand-football-1352746/2/playlist.m3u8|Referer=https://embedsports.top/embed/admin/ppv-estonia-vs-moldova/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Algeria vs Uganda [HD] (alpha)" group-title="Football",[Football] Algeria vs Uganda [HD] (alpha)
-https://lb6.strmd.top/secure/DCbsNtbydKUeTkWafsbTTQVkITRuVLtH/alpha/stream/algeria-vs-uganda/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/algeria-vs-uganda/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Somalia vs Mozambique [HD] (alpha)" group-title="Football",[Football] Somalia vs Mozambique [HD] (alpha)
-https://gg.poocloud.in/wc_estonia/index.m3u8|Referer=https://embedsports.top/embed/alpha/somalia-vs-mozambique/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Guinea vs Botswana [HD] (alpha)" group-title="Football",[Football] Guinea vs Botswana [HD] (alpha)
-https://lb1.strmd.top/secure/VWwlZNMRLnCKgLuZUzRXISqDXMuAIlgC/alpha/stream/guinea-vs-botswana/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/guinea-vs-botswana/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Nigeria vs Benin [HD] (alpha)" group-title="Football",[Football] Nigeria vs Benin [HD] (alpha)
-https://lb6.strmd.top/secure/YKUwUuKNTdYvpXtNZkksIlAmPsEdVgAc/alpha/stream/nigeria-vs-benin/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/nigeria-vs-benin/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] South Africa vs Rwanda [HD] (alpha)" group-title="Football",[Football] South Africa vs Rwanda [HD] (alpha)
-https://lb1.strmd.top/secure/VWwlZNMRLnCKgLuZUzRXISqDXMuAIlgC/alpha/stream/guinea-vs-botswana/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/south-africa-vs-rwanda/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_estonia/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-estonia-vs-moldova/1&Origin=https://embedsports.top
+#EXTINF:-1 tvg-name="[Football] Algeria vs Uganda [HD] (hotel)" group-title="Football",[Football] Algeria vs Uganda [HD] (hotel)
+https://gg.poocloud.in/wc_estonia/index.m3u8|Referer=https://embedsports.top/embed/hotel/world-cup-qualifying-algeria-vs-uganda/1&Origin=https://embedsports.top
 
