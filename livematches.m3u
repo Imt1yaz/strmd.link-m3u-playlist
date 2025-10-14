@@ -1,18 +1,20 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 21:19
-#DESCRIPTION:6 streams (fresh run)
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-14 21:47
+#DESCRIPTION:7 streams (fresh run)
 
-# ====== FOOTBALL (6) ======
+# ====== FOOTBALL (7) ======
+#EXTINF:-1 tvg-name="[Football] Türki̇ye vs. Georgia [HD] (admin)" group-title="Football",[Football] Türki̇ye vs. Georgia [HD] (admin)
+https://gg.poocloud.in/wc_turkiye/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-t-rki-ye-vs-georgia/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Italy vs Israel [HD] (admin)" group-title="Football",[Football] Italy vs Israel [HD] (admin)
 https://gg.poocloud.in/wc_italy/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-italy-vs-israel/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Portugal vs Hungary [HD] (admin)" group-title="Football",[Football] Portugal vs Hungary [HD] (admin)
-https://gg.poocloud.in/wc_portugal/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-portugal-vs-hungary/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_italy/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-portugal-vs-hungary/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Latvia vs England [HD] (admin)" group-title="Football",[Football] Latvia vs England [HD] (admin)
-https://gg.poocloud.in/wc_italy/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-latvia-vs-england/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_latvia/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-latvia-vs-england/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Andorra vs Serbia [HD] (admin)" group-title="Football",[Football] Andorra vs Serbia [HD] (admin)
-https://gg.poocloud.in/wc_latvia/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-andorra-vs-serbia/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_andorra/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-andorra-vs-serbia/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Ireland vs Armenia [HD] (admin)" group-title="Football",[Football] Ireland vs Armenia [HD] (admin)
-https://gg.poocloud.in/wc_andorra/tracks-v1a1/mono.ts.m3u8|Referer=https://embedsports.top/embed/admin/ppv-republic-of-ireland-vs-armenia/1&Origin=https://embedsports.top
+https://gg.poocloud.in/wc_republic-of-ireland/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-republic-of-ireland-vs-armenia/1&Origin=https://embedsports.top
 #EXTINF:-1 tvg-name="[Football] Spain vs Bulgaria [HD] (admin)" group-title="Football",[Football] Spain vs Bulgaria [HD] (admin)
 https://gg.poocloud.in/wc_spain/index.m3u8|Referer=https://embedsports.top/embed/admin/ppv-spain-vs-bulgaria/1&Origin=https://embedsports.top
 
