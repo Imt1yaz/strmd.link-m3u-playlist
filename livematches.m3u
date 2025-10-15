@@ -1,14 +1,4 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-15 03:56
-#DESCRIPTION:3 streams (fresh run)
-
-# ====== FIGHT (UFC/BOXING) (1) ======
-#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] DWCS S9W10: Post-Fight Press Conference (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] DWCS S9W10: Post-Fight Press Conference (alpha)
-https://lb2.strmd.top/secure/ixWokkrcBDTKlWrnOmRAMZQyETQdZqHV/alpha/stream/dwcs-s9w10-post-fight-press-conference/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/dwcs-s9w10-post-fight-press-conference/2&Origin=https://embedsports.top
-
-# ====== FOOTBALL (2) ======
-#EXTINF:-1 tvg-name="[Football] El Salvador vs Guatemala [HD] (alpha)" group-title="Football",[Football] El Salvador vs Guatemala [HD] (alpha)
-https://lb10.strmd.top/secure/WmBhtUwSBlsFhmACAdJKdiyDhJDKTWiq/alpha/stream/el-salvador-vs-guatemala/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/el-salvador-vs-guatemala/1&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Football] Panama vs Suriname [HD] (hotel)" group-title="Football",[Football] Panama vs Suriname [HD] (hotel)
-https://lb2.strmd.top/secure/ixWokkrcBDTKlWrnOmRAMZQyETQdZqHV/alpha/stream/dwcs-s9w10-post-fight-press-conference/2/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/world-cup-qualifying-panama-vs-suriname/1&Origin=https://embedsports.top
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-15 04:25
+#DESCRIPTION:0 streams (fresh run)
 
