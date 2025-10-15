@@ -1,10 +1,12 @@
 #EXTM3U
-#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-15 11:47
+#PLAYLIST: Streamed.pk Ultra [Custom Logic] - 2025-10-15 12:44
 #DESCRIPTION:2 streams (fresh run)
 
-# ====== CRICKET (2) ======
+# ====== CRICKET (1) ======
 #EXTINF:-1 tvg-name="[Cricket] England Cricket Women vs Pakistan Cricket Women [HD] (alpha)" group-title="Cricket",[Cricket] England Cricket Women vs Pakistan Cricket Women [HD] (alpha)
-https://lb8.strmd.top/secure/aSzHJBLJoPawtYTaQYuuhUjBjDKsqUAr/alpha/stream/england-w-vs-pakistan-w/2/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/england-w-vs-pakistan-w/2&Origin=https://embedsports.top
-#EXTINF:-1 tvg-name="[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (hotel)" group-title="Cricket",[Cricket] South Africa tour of Pakistan: Pakistan vs South Africa [HD] (hotel)
-https://lb8.strmd.top/secure/aSzHJBLJoPawtYTaQYuuhUjBjDKsqUAr/alpha/stream/england-w-vs-pakistan-w/2/playlist.m3u8|Referer=https://embedsports.top/embed/hotel/1st-test-day-4-pakistan-vs-south-africa/1&Origin=https://embedsports.top
+https://lb5.strmd.top/secure/HBXlpCNeovZvmzYcbmHFoWJDGnDwkwfw/alpha/stream/conway-vs-liddard-press-conference/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/england-w-vs-pakistan-w/1&Origin=https://embedsports.top
+
+# ====== FIGHT (UFC/BOXING) (1) ======
+#EXTINF:-1 tvg-name="[Fight (UFC/Boxing)] Conway vs Liddard: Press Conference [HD] (alpha)" group-title="Fight (UFC/Boxing)",[Fight (UFC/Boxing)] Conway vs Liddard: Press Conference [HD] (alpha)
+https://lb5.strmd.top/secure/HBXlpCNeovZvmzYcbmHFoWJDGnDwkwfw/alpha/stream/conway-vs-liddard-press-conference/1/playlist.m3u8|Referer=https://embedsports.top/embed/alpha/conway-vs-liddard-press-conference/1&Origin=https://embedsports.top
 
